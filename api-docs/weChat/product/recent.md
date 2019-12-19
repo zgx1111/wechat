@@ -4,7 +4,7 @@
 
 ## Example Request
 ```
-https://yxadult.xyz/api/v1/product/recent
+https://{host}/api/v1/product/recent
 ```
 
 ## Request Parameter
