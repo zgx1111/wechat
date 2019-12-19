@@ -15,11 +15,11 @@ https://yxadult.xyz/api/v1/token/verify
 
 
 ## Request Body
-
+```
 {
 	"token":62c52a582096a24858c37173799a2224	
 }
-
+```
 ## Response Parameter
 
 | 参数名              | 必选   | 参数对应值 | 说明                              |

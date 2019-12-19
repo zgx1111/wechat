@@ -15,11 +15,12 @@ https://yxadult.xyz/api/v1/token/user
 
 
 ## Request Body
-
+```
 {
 	"code":011huWZo0kxYho1YIh0p0kj40p0huWZo
 }
 
+```
 ## Response Parameter
 
 | 参数名              | 必选   | 参数对应值 | 说明                              |

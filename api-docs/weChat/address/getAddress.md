@@ -1,4 +1,4 @@
-## 微信获得token令牌 /wechat/address/getAddress/
+## 用户获得地址 /wechat/address/getAddress/
 
 - **`HTTPS 请求方式`** GET
 
@@ -16,11 +16,11 @@ https://yxadult.xyz/api/v1/address
 
 ## Request Body
 
-
+```
 从header中传token
 
 
-
+```
 
 ## Response Parameter
 
@@ -41,7 +41,7 @@ https://yxadult.xyz/api/v1/address
 
 ```
 
-[
+
     {
         "name": "hao",
         "phone": "18723456789",
@@ -49,8 +49,8 @@ https://yxadult.xyz/api/v1/address
         "address": "dsa",
         "create_time": "2019-12-17 13:08:06",
         "update_time": "2019-12-17 13:08:06"
-    }
-]
+   }
+
 
 
 

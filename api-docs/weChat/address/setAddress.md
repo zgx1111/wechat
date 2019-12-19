@@ -21,6 +21,7 @@ https://yxadult.xyz/api/v1/address
 ## Request Body
 
 
+```
 从header中传token
 
 
@@ -31,6 +32,8 @@ https://yxadult.xyz/api/v1/address
 	"address":"的撒飒飒倒萨的撒旦"
 }
 
+
+```
 
 
 ## Response Parameter

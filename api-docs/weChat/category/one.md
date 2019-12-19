@@ -17,10 +17,12 @@ https://yxadult.xyz/api/v1/category/one
 
 ## Request Body
 
+```
 {
     "category_id":1
 }
 
+```
 ## Response Parameter
 
 | 参数名              | 必选   | 参数对应值 | 说明                              |

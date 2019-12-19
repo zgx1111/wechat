@@ -16,11 +16,14 @@ https://yxadult.xyz/api/v1/product/search
 
 
 ## Request Body
+
+```
 {
     "store":1,
     "value":"小"
 }
 
+```
 ## Response Parameter
 
 | 参数名              | 必选   | 参数对应值 | 说明                              |

@@ -1,4 +1,4 @@
-## 查看某个商品详细信息 /wechat/product//
+## 查看某个商品详细信息 /wechat/product/product/
 
 - **`HTTPS 请求方式`** GET
 

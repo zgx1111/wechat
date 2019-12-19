@@ -22,5 +22,5 @@
 
 [获得token令牌](weChat/token/user.md#Body)
 
-[检验token令牌是否过期](token/verify.md#Body)
+[检验token令牌是否过期](weChat/token/verify.md#Body)
 ## 结束

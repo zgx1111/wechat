@@ -15,9 +15,11 @@ https://yxadult.xyz/api/v1/product/recent
 
 
 ## Request Body
+```
 {
     "store":1
 }
+```
 
 ## Response Parameter
 
