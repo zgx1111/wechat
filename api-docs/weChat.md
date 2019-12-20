@@ -23,4 +23,6 @@
 [获得token令牌](weChat/token/user.md#Body)
 
 [检验token令牌是否过期](weChat/token/verify.md#Body)
+
+[查看门店名字](weChat/store/wxGetStoreName.md#Body)
 ## 结束
