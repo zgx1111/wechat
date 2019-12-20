@@ -4,7 +4,7 @@
 
 ## Example Request
 ```
-https://{host}/api/v1/storewxGetStoreName
+https://{host}/api/v1/store/wxGetStoreName
 ```
 
 ## Request Parameter
