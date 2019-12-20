@@ -30,6 +30,8 @@ https://{host}/api/v1/product/recent
 | price               | `true` | `int`      | 价格                             |
 | cost                | `true` | `int`      | 成本                             |
 | stock               | `true` | `int`      | 存货                             |
+| sales               | `true` | `int`      | 销量                             |
+| state               | `true` | `int`      | 状态，1是上架，0是下架            |
 | create_time         | `true` | `int`      | 创建时间                         |
 | update_time         | `true` | `int`      | 更新时间                         |
 | delete_time         | `true` | `int`      | 删除时间                         |
@@ -51,6 +53,7 @@ https://{host}/api/v1/product/recent
         "cost": "0.00",
         "stock": 999,
         "state": 1,
+        "sales":0,
         "delete_time": null,
         "category_id": 5,
         "main_img_url": "http://z.cn/images/20191215/2bb2226ddb4e10bdd3806d311370becf.jpg",
@@ -86,6 +89,7 @@ https://{host}/api/v1/product/recent
         "price": "89.00",
         "cost": "0.00",
         "stock": 999,
+        "sales":0,
         "state": 1,
         "delete_time": null,
         "category_id": 5,

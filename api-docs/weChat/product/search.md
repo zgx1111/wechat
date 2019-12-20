@@ -33,6 +33,8 @@ https://{host}/api/v1/product/search
 | price               | `true` | `int`      | 价格                             |
 | cost                | `true` | `int`      | 成本                             |
 | stock               | `true` | `int`      | 存货                             |
+| sales               | `true` | `int`      | 销量                             |
+| state               | `true` | `int`      | 状态，1是上架，0是下架            |
 | create_time         | `true` | `int`      | 创建时间                         |
 | update_time         | `true` | `int`      | 更新时间                         |
 | delete_time         | `true` | `int`      | 删除时间                         |
@@ -53,6 +55,7 @@ https://{host}/api/v1/product/search
         "price": "16.60",
         "cost": "0.00",
         "stock": 999,
+        "sales":0,
         "state": 1,
         "delete_time": null,
         "category_id": 5,
@@ -89,6 +92,7 @@ https://{host}/api/v1/product/search
         "price": "89.00",
         "cost": "0.00",
         "stock": 999,
+        "sales":0,
         "state": 1,
         "delete_time": null,
         "category_id": 5,
