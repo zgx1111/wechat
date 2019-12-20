@@ -8,7 +8,7 @@
 
 [查询是否在营业时间](weChat/storehouse/isTime.md#body)
 
-[查询商品详细信息](weChat/product/byCategory.md#Body)
+[查询商品详细信息](weChat/product/product.md#Body)
 
 [查询最近新品](weChat/product/recent.md#Body)
 
