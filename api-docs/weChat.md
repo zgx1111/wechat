@@ -29,4 +29,8 @@
 [下订单](weChat/order/order.md#Body)
 
 [订单支付](weChat/order/pre_order.md#Body)
+
+[获得订单详情](weChat/order/getOrderDetail.md#Body)
+
+[获得用户全部订单](weChat/order/getOrderByUser.md#Body)
 ## 结束
