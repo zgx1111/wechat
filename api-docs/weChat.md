@@ -25,4 +25,6 @@
 [检验token令牌是否过期](weChat/token/verify.md#Body)
 
 [查看门店名字](weChat/store/wxGetStoreName.md#Body)
+
+[下订单](weChat/order/order.md#Body)
 ## 结束
