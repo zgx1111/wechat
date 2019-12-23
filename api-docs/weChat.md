@@ -27,4 +27,6 @@
 [查看门店名字](weChat/store/wxGetStoreName.md#Body)
 
 [下订单](weChat/order/order.md#Body)
+
+[订单支付](weChat/order/pre_order.md#Body)
 ## 结束
