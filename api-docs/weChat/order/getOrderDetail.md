@@ -52,6 +52,7 @@ token在header里传
     "status": 1,
     "snap_img": "http://yxadult.xyz/images/20191220/51640bdb2966bc7453cf16690b62422f.jpg",
     "snap_name": "霏慕性感蕾丝花边丝袜吊袜带一体连裤袜7361肉色等",
+    "main_img_url":"http://yxadult.xyz/images/20191220/51640bdb2966bc7453cf16690b62422f.jpg",
     "total_count": 2,
     "snap_items": [
         {

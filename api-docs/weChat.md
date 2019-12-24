@@ -16,6 +16,14 @@
 
 [查询分类商品](weChat/product/byCategory.md#Body)
 
+[查询分类商品,价格正序](weChat/product/getCateProPriceAsc.md#Body)
+
+[查询分类商品,价格倒序](weChat/product/getCateProPriceDesc.md#Body)
+
+[查询分类商品,销量正序](weChat/product/getCateProSalesAsc.md#Body)
+
+[查询分类商品,销量倒序](weChat/product/getCateProSalesDesc.md#Body)
+
 [搜索商品](weChat/product/search.md#Body)
 
 [获得全部分类](weChat/category/all.md#Body)

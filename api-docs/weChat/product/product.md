@@ -50,7 +50,7 @@ https://{host}/api/v1/product/:id
     "state": 1,
     "delete_time": null,
     "category_id": 1,
-    "main_img_url": "http://yxadult.xyz/images",
+    "main_img_url": "http://z.cn/images/20191219/118cd7ab22aae6deaa9d34ce395ba950.jpg",
     "create_time": "2019-12-19 14:16:16",
     "update_time": "2019-12-19 14:20:13",
     "summary": "123",
