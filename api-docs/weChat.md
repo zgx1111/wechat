@@ -12,6 +12,8 @@
 
 [查询最近新品](weChat/product/recent.md#Body)
 
+[查询热点商品](weChat/product/getHotPro.md#Body)
+
 [查询分类商品](weChat/product/byCategory.md#Body)
 
 [搜索商品](weChat/product/search.md#Body)
