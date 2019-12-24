@@ -1,4 +1,4 @@
-## 获得分类商品，价格郑序 /wechat/product/getCateProPriceAsc/
+## 获得分类商品，价格正序 /wechat/product/getCateProPriceAsc/
 
 - **`HTTPS 请求方式`** GET
 
@@ -51,7 +51,7 @@ https://{host}/api/v1/product/getCateProPriceAsc
     {
         "id": 92,
         "name": "【情趣用品】人初油 金装加强版人初油男用喷剂 (金装人初油)\t",
-        "price": "98.00",
+        "price": "12.00",
         "cost": "18.00",
         "stock": 5,
         "sales": 0,

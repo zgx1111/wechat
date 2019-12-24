@@ -1,4 +1,4 @@
-## 获得分类商品，销量倒 /wechat/product/getCateProSalesDesc/
+## 获得分类商品，销量倒序 /wechat/product/getCateProSalesDesc/
 
 - **`HTTPS 请求方式`** GET
 
