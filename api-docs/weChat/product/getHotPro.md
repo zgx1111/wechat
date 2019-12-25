@@ -81,7 +81,27 @@ https://{host}/api/v1/product/WxGetHotPro
                 }
             }
         ],
-        "main_imgs": []
+         "main_imgs": [
+            {
+                "id": 241,
+                "img_id": 1731,
+                "product_id": 264,
+                "img_url": {
+                    "url": "http://yxadult.xyz/images/20191221/82fc7db48fdcda421eedd4044d97e211.jpg",
+                    "create_time": "2019-12-21 11:34:04"
+                }
+            },
+            {
+                "id": 241,
+                "img_id": 1731,
+                "product_id": 264,
+                "img_url": {
+                    "url": "http://yxadult.xyz/images/20191221/82fc7db48fdcda421eedd4044d97e211.jpg",
+                    "create_time": "2019-12-21 11:34:04"
+                }
+            }
+
+        ]
     },
     {
         "id": 265,
