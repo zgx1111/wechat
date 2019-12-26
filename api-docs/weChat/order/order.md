@@ -14,7 +14,7 @@ https://{host}/api/v1/order
 | product_id   | `true` | `int`      | 商品id               |
 | count        | `true` | `int`      | 商品数量             |
 | store        | `true` | `int`      | 门店id               |
-
+| time         | `true` | `int`      | 送货时间              |
 
 ## Request Body
 
@@ -26,7 +26,8 @@ token在header里传
 	"products":[
 			{"product_id": 222, "count": 1}
 		],
-	"store":1
+	"store":1,
+	"time":8
 
 }
 ```
