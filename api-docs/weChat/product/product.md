@@ -23,6 +23,9 @@ https://{host}/api/v1/product/:id
 | id                  | `true` | `int    `  | 主键id                          |
 | name                | `true` | `string`   | 商品名字                         |
 | price               | `true` | `int`      | 价格                             |
+| sprice               | `true` | `int`     | 特殊价格                         |
+| limit_count         | `true` | `int`      | 限制数量，特价的限制数量，买了就会减少，小于等于0时恢复原价 |
+| discount            | `true` | `int`      | 折扣                             |
 | cost                | `true` | `int`      | 成本                             |
 | stock               | `true` | `int`      | 存货                             |
 | sales               | `true` | `int`      | 销量                             |
@@ -41,49 +44,79 @@ https://{host}/api/v1/product/:id
 
 ```
 {
-    "id": 337,
-    "name": "梨花带雨1个",
-    "price": "123.00",
-    "cost": "22.00",
-    "stock": 123,
-    "sales":0,
+    "id": 237,
+    "name": "谜姬二代加温久潮男用后霆振动棒12频USB充电",
+    "price": "218.00",
+    "sprice": null,
+    "limit_counts": 196,
+    "discount": "1.00",
+    "cost": "0.00",
+    "stock": 100,
+    "sales": 0,
     "state": 1,
     "delete_time": null,
-    "category_id": 1,
-    "main_img_url": "http://z.cn/images/20191219/118cd7ab22aae6deaa9d34ce395ba950.jpg",
-    "create_time": "2019-12-19 14:16:16",
-    "update_time": "2019-12-19 14:20:13",
-    "summary": "123",
-    "img_id": null,
+    "category_id": 9,
+    "main_img_url": "http://z.cn/images/20191221/967dc2dfdd56bdc6ff4793343d60a72d.jpg",
+    "create_time": "2019-12-14 17:30:26",
+    "update_time": "2019-12-21 11:18:29",
+    "summary": "",
+    "img_id": 992,
     "storehouse_id": 6,
     "imgs": [
         {
-            "id": 1110,
-            "img_id": 1645,
-            "product_id": 337,
+            "id": 652,
+            "img_id": 993,
+            "product_id": 237,
             "img_url": {
-                "url": "http://z.cn/images/20191219/118cd7ab22aae6deaa9d34ce395ba950.jpg",
-                "create_time": "2019-12-19 14:16:14"
+                "url": "http://z.cn/images/20191214/47dfd393912e2cf54270ffeb6adac2b1.jpg",
+                "create_time": "2019-12-14 17:30:45"
             }
         },
         {
-            "id": 1111,
-            "img_id": 1646,
-            "product_id": 337,
+            "id": 653,
+            "img_id": 994,
+            "product_id": 237,
             "img_url": {
-                "url": "http://z.cn/images/20191219/01a62a3117d4568fa21e51beac4e93b9.jpg",
-                "create_time": "2019-12-19 14:16:31"
+                "url": "http://z.cn/images/20191214/0dbcbd25a04290a5a57a0af3cf5646f2.jpg",
+                "create_time": "2019-12-14 17:30:49"
+            }
+        },
+        {
+            "id": 654,
+            "img_id": 995,
+            "product_id": 237,
+            "img_url": {
+                "url": "http://z.cn/images/20191214/6f9cfd9f2465d2123e1eca4ddf9bcd9b.jpg",
+                "create_time": "2019-12-14 17:31:00"
+            }
+        },
+        {
+            "id": 655,
+            "img_id": 996,
+            "product_id": 237,
+            "img_url": {
+                "url": "http://z.cn/images/20191214/5b4b13f81ef480dc0bb52b9ab3e65e0f.jpg",
+                "create_time": "2019-12-14 17:31:18"
+            }
+        },
+        {
+            "id": 656,
+            "img_id": 997,
+            "product_id": 237,
+            "img_url": {
+                "url": "http://z.cn/images/20191214/d024171f3da8e82fefcd7333e2396b05.jpg",
+                "create_time": "2019-12-14 17:31:21"
             }
         }
     ],
     "main_imgs": [
         {
-            "id": 47,
-            "img_id": 1643,
-            "product_id": 337,
+            "id": 231,
+            "img_id": 1700,
+            "product_id": 237,
             "img_url": {
-                "url": "http://z.cn/images/20191219/ab9d8ba0a98a0a03369006091fc433b4.jpg",
-                "create_time": "2019-12-19 14:16:07"
+                "url": "http://z.cn/images/20191221/967dc2dfdd56bdc6ff4793343d60a72d.jpg",
+                "create_time": "2019-12-21 11:18:27"
             }
         }
     ]
