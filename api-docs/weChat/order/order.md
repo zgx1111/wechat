@@ -27,7 +27,7 @@ token在header里传
 			{"product_id": 222, "count": 1}
 		],
 	"store":1,
-	"time":8
+	"time":8:00
 
 }
 ```
