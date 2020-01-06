@@ -10,6 +10,8 @@ cms端管理
 
 [查询供货仓全部订单数量](cms/order/getOrderAllCount.md#Body)
 
+[查询供货仓付款订单](cms/order/getOrderRemind.md#Body)
+
 [查询供货仓已付款订单数量](cms/order/getOrderRemindCount.md#Body)
 
 [订单提醒](cms/order/orderRemind.md#Body)

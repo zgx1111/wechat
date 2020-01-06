@@ -36,7 +36,7 @@ token在header里传
 | total_price         | `true` | `int`      | 总价格                            		 |
 | status              | `true` | `int`      | 订单状态：1是未付款，2是已支付，3是已发货  |
 | remarks             | `true` | `string`   | 订单备注                                |
-| send_time           | `true` | `string`   | 订单发货时间                            |
+| send_time           | `true` | `string`   | 订单预定发货时间                         |
 | snap_img            | `true` | `string`   | 订单图片                           	 |
 | snap_name           | `true` | `string`   | 订单名字                           	 |
 | total_count         | `true` | `int`      | 订单总数量                         	 |
