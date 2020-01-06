@@ -5,7 +5,7 @@
 ## Example Request
 ```
 https://{host}/api/v1/article/${:id}
-
+```
 ## Request Parameter
 
 | 参数名       | 必选   | 参数对应值 | 说明                  |
@@ -16,6 +16,7 @@ https://{host}/api/v1/article/${:id}
 ## Request Body
 
 ## Response Parameter
+
 
 | 参数名              | 必选   | 参数对应值 | 说明                              |
 | ------------------- | ------ | ---------- | --------------------------------|
@@ -32,7 +33,6 @@ https://{host}/api/v1/article/${:id}
 | content             | `true` | `string`   | 评论内容                         |
 | create_time         | `true` | `string`   | 评论创建时间                     |
 
-```
 ## Response Body
 
 ```
