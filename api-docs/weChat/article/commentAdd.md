@@ -16,13 +16,13 @@ https://{host}/api/v1/comment/commentAdd
 
 
 ## Request Body
-
+```
 用户token令牌在header里传
 {
     "id":8,
     "content":"wewqewqe"
 }
-
+```
 ## Response Parameter
 
 | 参数名              | 必选   | 参数对应值 | 说明                              |

@@ -32,6 +32,7 @@ https://{host}/api/v1/article/${:id}
 | content             | `true` | `string`   | 评论内容                         |
 | create_time         | `true` | `string`   | 评论创建时间                     |
 
+```
 ## Response Body
 
 ```
