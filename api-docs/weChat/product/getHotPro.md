@@ -85,7 +85,7 @@ https://{host}/api/v1/product/WxGetHotPro
             {
                 "id": 241,
                 "img_id": 1731,
-                "product_id": 264,
+                "product_id": 264,      
                 "img_url": {
                     "url": "http://yxadult.xyz/images/20191221/82fc7db48fdcda421eedd4044d97e211.jpg",
                     "create_time": "2019-12-21 11:34:04"

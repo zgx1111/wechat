@@ -14,7 +14,8 @@ https://{host}/api/v1/order
 | product_id   | `true` | `int`      | 商品id               |
 | count        | `true` | `int`      | 商品数量             |
 | store        | `true` | `int`      | 门店id               |
-| time         | `true` | `int`      | 送货时间              |
+| time         | `true` | `string`   | 送货时间              |
+| remarks      | `true` | `string`   | 备注                 |
 
 ## Request Body
 
@@ -27,7 +28,8 @@ token在header里传
 			{"product_id": 222, "count": 1}
 		],
 	"store":1,
-	"time":8:00
+	"time":8:00,
+    "remarks":"数据库的杀菌的"
 
 }
 ```
@@ -62,8 +64,21 @@ token在header里传
 失败：
 
 {
-	"order_id":-1,
-	"pass":false
+    "pass": false,
+    "orderPrice": 292.6,
+    "totalCount": 11,
+    "pStatusArray": [
+        {
+            "id": 55,
+            "haveStock": false,
+            "counts": "11",
+            "price": "26.60",
+            "name": "名流避孕套爽口套 樱桃味 10只装",
+            "totalPrice": 292.6,
+            "main_img_url": "http://z.cn/images/20191221/d047e22e1e26a76b7daf4976b84d8d35.jpg"
+        }
+    ],
+    "order_id": -1
 }
 
 ```
