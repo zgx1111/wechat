@@ -43,4 +43,10 @@
 [获得订单详情](weChat/order/getOrderDetail.md#Body)
 
 [获得用户全部订单](weChat/order/getOrderByUser.md#Body)
+
+[获得全部文章](weChat/article/artGetAll.md#Body)
+
+[获得文章详情](weChat/article/artGetOne.md#Body)
+
+[添加文章评论](weChat/article/commentAdd.md#Body)
 ## 结束
