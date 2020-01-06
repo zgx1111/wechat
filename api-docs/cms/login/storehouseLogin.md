@@ -1,4 +1,4 @@
-## 供货仓登陆 /cms/order/getOederAll
+## 供货仓登陆 /cms/login/storehouseLogin
 - **`HTTPS 请求方式`** POST
 
 ## Example Request
