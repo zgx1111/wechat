@@ -34,6 +34,10 @@ token在header里传
 ## Response Body
 
 ```
+成功：
+    true
 
+失败：
+    false
 ```
 
